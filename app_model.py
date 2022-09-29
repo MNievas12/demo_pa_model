@@ -4,6 +4,9 @@ import pickle
 from sklearn.model_selection import cross_val_score
 import pandas as pd
 import sqlite3
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.linear_model import LinearRegression
 
 
 os.chdir(os.path.dirname(__file__))
